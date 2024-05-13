@@ -2,19 +2,46 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    font-size: 20px;
+ 
 }
 * {
     margin: 0%;
     padding: 0%;
+    font-family: "Ubuntu Sans", sans-serif;
 }
 .nav, .list{
     display: flex;
     margin: auto;
     padding: 1em;
-}
-h1{
+    background-color: #e6e6e6;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
     
 }
-li {
-    padding: 2em;
+.logo {
+    width: 8em;
+    height: 4em;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+a:hover {
+    border-top: solid black;
+}
+
+
+.card1 {
+    text-align: center;
+    background-image: url("./img/Que-tipos-de-ascensores-existen.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em;
+}
+span{
+    display: block;
 }
